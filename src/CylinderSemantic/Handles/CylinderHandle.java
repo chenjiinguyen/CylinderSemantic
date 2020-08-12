@@ -444,7 +444,7 @@ public class CylinderHandle {
                         break;
                     case 1:
                         // r = Sq/h
-                        value = (float)(VTable[4][2]/VTable[1][2]);
+                        value = (float)(VTable[4][2]/VTable[0][2]);
                         lstBuocGiai.add("CT3: r = Sq/h = " + String.valueOf(value));
                         break;
                     case 4:
